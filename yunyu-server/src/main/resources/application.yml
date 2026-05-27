@@ -10,4 +10,4 @@ spring:
     keep-alive: true
 
 server:
-  port: 20000
+  port: ${PORT:20000}

@@ -112,6 +112,13 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- 提供 PostgreSQL 驱动，用于 Render 部署环境。 -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 		<!-- 提供 S3 协议对象存储客户端与预签名能力，用于附件前端直传和远程文件删除。 -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
